@@ -28,7 +28,7 @@ const MyResume: React.FC = () => {
             </h3>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
-                href="https://drive.google.com/file/d/17sM4xS1xohAzWrwANbnwk9d8tnJoYh9P/view?usp=sharing"
+                href="https://drive.google.com/file/d/1-T2S141zdBs3rAImFqpDY0oKAfI0cRk0/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary text-seccondary px-4 py-2 rounded-full hover:bg-opacity-90 font-bold"

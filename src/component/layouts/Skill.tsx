@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SkillCardList from "../fragments/Skill/SkillCardList";
 import SkillList from "../fragments/Skill/SkillList";
-import { faPenNib, faDesktop, faSearch, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPenNib, faDesktop, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Skill = () => {
   const [activeCard, setActiveCard] = useState<number | null>(null);
@@ -14,14 +14,14 @@ const Skill = () => {
     { name: "UI/UX Design", level: 80 },
     { name: "Web Design", level: 90 },
     { name: "App Design", level: 85 },
-    { name: "SEO", level: 75 },
+    // { name: "SEO", level: 75 },
   ];
 
   const cards = [
     { icon: faPenNib, title: "UI/UX Design" },
     { icon: faDesktop, title: "Web Design" },
     { icon: faMobileAlt, title: "App Design" },
-    { icon: faSearch, title: "SEO" },
+    // { icon: faSearch, title: "SEO" },
   ];
 
   const getSkillColor = (level: number) => {
